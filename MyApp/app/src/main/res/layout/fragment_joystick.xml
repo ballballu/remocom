@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <com.jmedeisis.bugstick.Joystick
+
+        android:id="@+id/joystick"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/bg_base"
+        app:force_square="true"
+        app:motion_constraint="None"
+        app:start_on_first_touch="true">
+
+        <Button
+            android:layout_width="@dimen/stick_size"
+            android:layout_height="@dimen/stick_size"
+            android:background="@drawable/bg_stick" />
+    </com.jmedeisis.bugstick.Joystick>
+
+</LinearLayout>

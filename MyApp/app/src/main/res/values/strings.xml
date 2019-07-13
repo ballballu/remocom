@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Remocon</string>
+    <string name="title_activity_mipca">MipcaActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="scan_text">Scanning</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_video">Video</string>
+    <string name="action_illuminate">Light</string>
+    <string name="action_alarm">Alarm</string>
+
+    <string name="welcome_text">待连接</string>
+
+    <string name="nav_button">Button</string>
+    <string name="nav_gesture">Gesture</string>
+    <string name="nav_gravity">Gravity</string>
+    <string name="nav_joystick">Joystick</string>
+    <string name="nav_voice">Voice</string>
+</resources>
